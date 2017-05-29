@@ -2,10 +2,10 @@
   "name": "fun-media",
   "version": "0.0.1",
   "private": true,
-  "homepage": "https://justcoders.github.io/fun-media",
+  "homepage": "https://justcoders.github.io",
   "dependencies": {
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react": "15.5.4",
+    "react-dom": "15.5.4"
   },
   "devDependencies": {
     "gh-pages": "^1.0.0",
