@@ -1,6 +1,14 @@
-import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
-import './index.css';
+import 'bootstrap/dist/css/bootstrap.css';
+import './styles/index.css';
+import injectTapEventPlugin from 'react-tap-event-plugin';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+import { makeMainRoutes } from './routes';
+const routes = makeMainRoutes();
+
+injectTapEventPlugin();
+
+ReactDOM.render(
+  routes,
+  document.getElementById('root')
+);

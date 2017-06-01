@@ -1,0 +1,10 @@
+#lock-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.auth0-lock {
+  top: -150px;
+}
+
